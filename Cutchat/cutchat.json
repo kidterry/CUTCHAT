@@ -1,0 +1,385 @@
+
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey","How are you","Makadii"],
+        "responses": ["Hello!", "Hi there!", "Greetings! How can I assist you?"]
+      },
+      {
+        "tag":"naming",
+        "patterns":["who are you","what created you","whats your name","where do you come from"],
+        "responses":["i am CUTBOT a chatbot","i am a AI bot","i am a computer program"]
+      },
+      {
+        "tag": "application",
+        "patterns": ["How do I apply at CUT?", "Application process at CUT?"],
+        "responses": ["To apply at CUT, visit www.cut.ac.zw and click on 'Apply Now' under 'Join CUT Today'. Follow  detailed prompts provided. Applications are open twice a year for March as well as August intake."]
+      },
+      {
+        "tag": "courses",
+        "patterns": ["What courses does CUT offer?", "Tell me about  available courses at CUT.","Programs offered at CUT?."],
+        "responses": ["CUT offers a variety of courses across different faculties, including Engineering, Information Sciences, Business and Management Sciences, Applied Sciences, Health Sciences, and ART and Design. For a comprehensive list of courses and programs , please visit www.cut.ac.zw/welcome."]
+      },
+      {
+        "tag": "school_fees",
+        "patterns": ["What are the school fees at CUT?", "How much do I have to pay for tuition at CUT?"],
+        "responses": ["The school fees at CUT vary depending on the program and level of study. For detailed information about the tuition fees, please visit the official website of CUT at www.cut.ac.zw and navigate to the 'Contact us tab' section."]
+      },
+      {
+        "tag": "invoices",
+        "patterns": ["Where do i get invoice?", "i want an invoice?","how do we get invoices?","can i have an invoice?"],
+        "responses": ["Send an email to requesting for the invoice to studentaccount@cut.ac.zw with these details such as reg number,program,level"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["i need help", "Help me","Please help me"],
+        "responses": ["How can i help,at your service always"]
+      },
+      {
+        "tag": "principal_officers",
+        "patterns": ["Who are the principal officers at CUT?", "Tell me about the Vice Chancellor and other principal officers at CUT."],
+        "responses": ["CUT has a dedicated team of principal officers. The Vice Chancellor is Professor D.J Simbi . Other principal officers include: Professor W Mtangi (Acting Pro-Vice Chancellor), Professor IDT Mpofu(Pro Vice Chancellor) , Professor T Bhebhe(Registrar) , and Mr. S Chinofunga(Executive Director for ICT). They play key roles in the administration and leadership of the university."]
+        },
+        {
+          "tag": "food_and_outlets",
+          "patterns": [
+          "Are there any food outlets at CUT?",
+          "Where can I find food at CUT?",
+          "Tell me about the dining options at CUT.",
+          "What food services are available at CUT?"
+          ],
+          "responses": [
+          "CUT offers various food outlets and dining options on campus. You can find food at the  School tuckshop,Dining , Cut hotel or cut drive in ,Hostel A,B,C,V,W,X,Y,Z tuckshops that serve a variety of meals, snacks, and beverages. The prices at these outlets vary depending on the specific items you choose. It is recommended to visit the outlets or check with the respective food vendors for the current pricing information,Meals at the canteen are affordable ranging from $1 usd or equivalent to local currencies.Canteen offers different meals like rice,mealie meal with beef,fish etc depending on the day 24/7 providing breakfast from 7-9am,lunch from 12-2pm and supper from 5.30-7pm."
+          ]
+          },
+          {
+            "tag": "accommodation",
+            "patterns": ["What are the accommodation options at CUT?", "Tell me about student housing at CUT.", "Where can I find accommodation at CUT?"],
+            "responses": ["CUT provides student accommodation options for its students. There are on-campus residences and off-campus housing facilities available in Chinhoyi. The on-campus residences offer a range of room types and amenities. For detailed information about accommodation options, including availability, pricing, and application procedures, please visit the official website of CUT to download offcampus database for more and on-campus accomodation can be applied online when the window is open"]
+          },
+          {
+            "tag": "clinic",
+            "patterns": [
+            "What services does the CUT clinic provide?",
+            "Can you tell me about the medical facilities at CUT?",
+            "How can I access the clinic at Chinhoyi University of Technology?"
+            ],
+            "responses": [
+            "Chinhoyi University of Technology operates an on-campus clinic that provides basic medical services and care for students. The CUT clinic offers outpatient treatment, first aid, and referrals to external healthcare facilities when necessary. Services typically include treatment for minor illnesses and injuries, prescription medication. The clinic is staffed by qualified medical professionals and is open during regular university hours. Students can access the clinic by visiting in person . For more details on the specific services, hours of operation, and procedures for using the CUT clinic, please check the university's website or contact the clinic directly."
+            ]
+            },
+            {
+              "tag": "sporting_facilities",
+              "patterns": [
+              "What sports facilities are available at CUT?",
+              "Can you tell me about the athletic amenities at Chinhoyi University of Technology?",
+              "What kind of sports and recreational activities can students participate in at CUT?"
+              ],
+              "responses": [
+              "Chinhoyi University of Technology has a range of sporting facilities and recreational amenities available for students. The university has well-equipped athletic fields, courts, and gymnasiums that cater to various sports and activities.\n\nSome of the key sporting facilities at CUT include:\n\n- Football/soccer pitch\n- Basketball courts\n- Tennis courts\n- Indoor gymnasium for sports like table tennis, and indoor soccer\n- Fitness center with weight training equipment \n- Olympic-size swimming pool\n\nCUT also has sports clubs and intramural leagues that students can join to participate in competitive and recreational sporting activities. The university encourages an active lifestyle and provides these facilities to promote health, fitness, and teamwork among the student community. For more detailed information on the specific sporting amenities, their usage policies, and club/league opportunities  please refer to the CUT website or contact the university's sports department."
+              ]
+              },
+              {
+                "tag": "campus_clubs",
+                "patterns": [
+                "What kind of clubs are available for students at CUT?",
+                "Can you tell me about the different student organizations at Chinhoyi University of Technology?",
+                "What extracurricular activities can I get involved in at CUT?"
+                ],
+                "responses": ["Chinhoyi University of Technology (CUT) offers a diverse array of student clubs and organizations for its learners to get involved in, including:\n\n1. Peer Educators Club: Promotes health and wellness education on campus, fostering a supportive and informed student community.\n\n2. Rotaract Club: Affiliated with Rotary International, this club organizes community service projects to make a positive impact on society.\n\n3. Debate Club: Enhances public speaking and critical thinking skills through engaging debates and discussions.\n\n4. Chess Club: Brings together students who share a passion for the game of chess, providing opportunities for friendly competition and skill development.\n\n5. Environmental Club: Raises awareness about environmental issues and organizes initiatives to foster sustainability and conservation.\n\n6. Entrepreneurship Club: Supports student-led business ventures and projects, fostering an entrepreneurial mindset and encouraging innovation.\n\n7. Drama and Theatre Club: Allows students to showcase their talents in the performing arts.\n\n8. Engineering Club: Caters to students interested in engineering-related activities.\n\n9. Women in STEM Club: Empowers and supports female students in science and technology.\n\nThese are just a few examples of the many clubs and student groups available at Chinhoyi University of Technology. The university encourages learners to get involved in extracurricular activities to develop well-rounded skills, build community, and explore their interests beyond the classroom. More information on how to join these clubs can be found through the CUT student affairs office or the university website."
+               
+                ]
+                },
+                {
+                  "tag": "cut_history",
+                  "patterns": ["Tell me about the history of Chinhoyi University of Technology.", "What is the background of CUT?", "Can you provide an overview of the evolution of CUT?"],
+                  "responses": ["Chinhoyi University of Technology (CUT) has a rich history and has undergone significant evolution since its establishment. Here is a brief overview of the history and evolution of CUT:\n\n1. Establishment: CUT was established in 2001 through the Chinhoyi University of Technology Act (Chapter 25:15). It was initially known as Chinhoyi University of Technology and Science (CUTS) before being renamed Chinhoyi University of Technology.\n\n2. Focus on Technology and Innovation: From its inception, CUT has prioritized technology and innovation in its academic programs. The university aims to produce graduates who can contribute to the technological advancement and economic development of Zimbabwe.\n\n3. Growth and Expansion: Over the years, CUT has experienced growth in terms of student enrollment, academic programs, and infrastructure. The university has continuously expanded its facilities, including lecture halls, laboratories, to accommodate the growing student population.\n\n4. Academic Programs: CUT offers a diverse range of academic programs in various disciplines, including engineering, information and communication technology, business sciences, agriculture, and applied sciences. The university strives to provide relevant and industry-focused education to equip students with practical skills and knowledge.\n\n5. Partnerships and Collaborations: CUT has established partnerships and collaborations with local and international institutions, industry, and government entities. These collaborations aim to enhance research, promote knowledge exchange, and provide opportunities for students and faculty to engage in practical projects.\n\n6. Research and Innovation: CUT places a strong emphasis on research and innovation. The university encourages faculty and students to engage in research activities, leading to advancements in various fields. Research centers and institutes have been established to support research initiatives and foster a culture of innovation.\n\n7. Community Engagement: CUT actively engages with the local community and contributes to its development. The university collaborates with local stakeholders, provides outreach programs, and supports community development projects.\n\n8. Accreditation and Recognition: CUT is recognized by the Zimbabwe Council for Higher Education (ZIMCHE) and has received accreditation for its academic programs. The university's commitment to quality education and research has earned it recognition both nationally and internationally.\n\nThroughout its history, Chinhoyi University of Technology has remained committed to its mission of providing quality education, promoting technological advancement, and contributing to the socio-economic development of Zimbabwe. The university continues to evolve and adapt to meet the changing needs of students, industry, and society at large."]
+                },
+                {
+                  "tag": "new_projects",
+                  "patterns": ["What are some of the new projects at Chinhoyi University of Technology?", "Tell me about the latest developments at CUT.", "Can you provide information on any new construction projects at CUT?"],
+                  "responses": ["Chinhoyi University of Technology (CUT) is continuously working on new projects to enhance its facilities and infrastructure. \n\n1. New Administrative Block: CUT is currently undertaking the construction of a new administrative block. This project aims to provide modern and efficient administrative facilities to support the university's operations.\n\n2. Expansion of Academic Facilities: The university is expanding its academic facilities, including lecture halls, laboratories, and specialized learning spaces. These expansions are aimed at providing state-of-the-art learning environments.\n\n3. Upgraded Research Centers: CUT is investing in the upgrading and modernization of its research centers. This includes equipping the centers with advanced research equipment and technologies to facilitate cutting-edge research and innovation.\n\n4.  The university is working on expanding and improving student  facilities to meet the increasing demand for lectures and other activities.\n\n5. Sports and Recreational Facilities: CUT is also focusing on the development of sports and recreational facilities for students.\n\nThese are just a few examples of the new projects and developments at Chinhoyi University of Technology. The university remains committed to providing a conducive and modern learning environment for its students and faculty."]
+                },
+                {
+                  "tag": "student_representative_council",
+                  "patterns": ["What is the Student Representative Council (SRC) at CUT?", "Tell me about the role of the Student Representative Council at Chinhoyi University of Technology.", "Can you provide information on the SRC at CUT?"],
+                  "responses": ["The Student Representative Council (SRC) at Chinhoyi University of Technology (CUT) serves as the official student governing body on campus. Here is some information about the SRC at CUT:\n\n1. Representation: The SRC represents the interests of the student body and acts as a voice for students in matters concerning their welfare, rights, and concerns. It serves as a bridge between the university administration and the student community.\n\n2. Leadership and Governance: The SRC is responsible for the leadership and governance of student affairs. It consists of elected student representatives who hold various positions such as president, vice president, secretary, treasurer, and representatives from different faculties or departments.\n\n3. Advocacy and Support: The SRC advocates for students' rights, welfare, and well-being. It works towards ensuring that students have a conducive learning environment, access to necessary resources, and a platform to address their grievances.\n\n4. Organizing Student Activities: The SRC plays a vital role in organizing and coordinating various student activities and events on campus. This includes social events, cultural celebrations, academic seminars, and sports activities.\n\n5. Collaboration with University Administration: The SRC collaborates with the university administration in decision-making processes that affect students. They engage in constructive dialogue, provide feedback, and contribute to the development of policies and regulations that impact student life.\n\nThe Student Representative Council at CUT plays a crucial role in representing student interests, fostering a vibrant student community, and promoting student engagement and well-being on campus."]
+                },
+                {
+                  "tag": "sub_wardens",
+                  "patterns": ["What is the role of sub-wardens at Chinhoyi University of Technology?", "Tell me about the responsibilities of sub-wardens at CUT.", "Can you provide information on sub-wardens at CUT?"],
+                  "responses": ["Sub-wardens at Chinhoyi University of Technology (CUT) play an important role in student accommodation and campus life. Here is some information about sub-wardens at CUT:\n\n1. Student Support: Sub-wardens are responsible for providing support and guidance to students residing in the university's accommodation facilities. They serve as a point of contact for students' concerns, ensuring their well-being, and addressing any issues that may arise.\n\n2. Safety and Security: Sub-wardens contribute to maintaining a safe and secure environment in the student accommodation areas. They monitor access to the facilities, enforce rules and regulations, and respond to any safety or security incidents that may occur.\n\n3. Building Community: Sub-wardens foster a sense of community among students by organizing social and educational activities within the accommodation areas. They promote a positive living environment, encourage student interaction, and facilitate the development of relationships and friendships.\n\n4. Conflict Resolution: Sub-wardens assist in resolving conflicts or disputes that may arise among students living in the accommodation facilities. They mediate conflicts, provide guidance on conflict resolution strategies, and promote a harmonious living environment.\n\n5. Liaison with University Authorities: Sub-wardens serve as a liaison between students and the university administration. They relay important information, communicate student concerns, and collaborate with the university authorities to address issues related to student accommodation.\n\nSub-wardens play a vital role in supporting students, ensuring a conducive living environment, and promoting a positive campus community at Chinhoyi University of Technology."]
+                },
+                {
+                  "tag": "control_and_security",
+                  "patterns": ["What measures are in place for control and security at Chinhoyi University of Technology?", "Tell me about the security arrangements at CUT.", "Can you provide information on control and security at CUT?"],
+                  "responses": ["Chinhoyi University of Technology (CUT) has implemented several measures to ensure control and security on campus. Here is some information about control and security at CUT:\n\n1. Security Personnel: CUT employs trained security personnel who are responsible for maintaining a safe and secure campus environment. They patrol the campus, monitor access points, and respond to any security incidents or emergencies.\n\n2. CCTV Surveillance: The university has installed CCTV cameras in strategic locations across the campus to enhance surveillance and monitor activities. These cameras help in deterring and identifying suspicious or unauthorized behavior.\n\n3. Access Control Systems: CUT utilizes access control systems, such as electronic gates and card-based entry systems, to regulate access to various buildings and areas on campus. This helps in controlling entry and ensuring that only authorized individuals can access specific locations.\n\n4. Emergency Preparedness: The university has established emergency response procedures and protocols. This includes conducting regular drills, training security personnel and staff in emergency response, and maintaining communication systems for rapid response during emergencies.\n\n5. Collaborations with Law Enforcement: CUT collaborates with local law enforcement agencies to enhance campus security. This may involve sharing information, coordinating patrols, and conducting joint initiatives to address security concerns.\n\n6. Student Safety Education: The university emphasizes student safety education and awareness. This includes conducting workshops, seminars, and awareness campaigns to educate students about personal safety, crime prevention, and emergency procedures.\n\nControl and security measures at CUT are continuously reviewed and updated to ensure the safety and well-being of the campus community."]
+                },
+                {
+                  "tag": "student_policies",
+                  "patterns": ["What are some of the student policies at Chinhoyi University of Technology?", "Tell me about the policies for students at CUT.", "Can you provide information on student-specific policies at CUT?"],
+                  "responses": ["Chinhoyi University of Technology (CUT) has implemented several policies specifically for students. Here are some of the key student policies at CUT:\n\n1. Student Code of Conduct: The Student Code of Conduct outlines the behavioral expectations and responsibilities of students. It covers aspects such as academic integrity, respect for others, and adherence to university rules and regulations.\n\n2. Attendance Policy: The Attendance Policy establishes guidelines for student attendance in classes and academic activities. It defines the minimum attendance requirements and the consequences for excessive absenteeism.\n\n3. Examination and Assessment Policy: This policy governs the conduct of examinations and assessments. It includes guidelines on exam regulations, grading systems, and procedures for handling academic appeals or grievances.\n\n4. Student Grievance Policy: The Student Grievance Policy provides a mechanism for students to raise concerns, complaints, or grievances related to their academic or non-academic experiences. It ensures a fair and transparent process for addressing and resolving student grievances.\n\n5. Student Support Services Policy: This policy outlines the various support services available to students, such as counseling, career guidance, disability services, and academic support. It aims to assist students in their personal, social, and academic development.\n\n6. Accommodation Policy: The Accommodation Policy governs the allocation and management of student accommodation facilities. It outlines the rules, regulations, and procedures for applying, living in, and vacating the university's on-campus housing.\n\nThese policies are designed to ensure a conducive learning environment, promote student well-being, and maintain academic integrity at Chinhoyi University of Technology."]
+                  },
+                  {
+                    "tag": "cut_alumni",
+                    "patterns": ["Tell me about the alumni network at Chinhoyi University of Technology.", "What services are available for CUT alumni?", "Can you provide information on the CUT alumni association?"],
+                    "responses": ["Chinhoyi University of Technology (CUT) values its alumni and has an active alumni network. Here is some information about the CUT alumni:\n\n1. Alumni Association: CUT has an official alumni association that serves as a platform for graduates to connect, network, and stay engaged with the university. The association organizes events, reunions, and professional development opportunities for alumni.\n\n2. Networking Opportunities: The alumni network at CUT provides excellent networking opportunities for graduates. Alumni can connect with fellow graduates, industry professionals, and potential employers through various networking events, social media platforms, and alumni chapters.\n\n3. Career Services: CUT offers career services and support to its alumni. This may include job placement assistance, career counseling, access to job postings, and workshops on professional development.\n\n4. Continuing Education: The university may provide opportunities for alumni to pursue further education or professional development through postgraduate programs, short courses, or workshops. Alumni may also receive discounts or benefits when enrolling in such programs.\n\n5. Alumni Newsletter and Updates: CUT keeps its alumni informed about the latest university news, achievements, and upcoming events through newsletters, alumni magazines, and online platforms. This helps alumni stay connected and engaged with the university.\n\nThe CUT alumni network is a valuable resource for graduates, offering support, networking, and lifelong connections with the university and fellow alumni."]
+                    },
+                    {
+                      "tag": "schools",
+                      "patterns": [
+                      "Tell me about the schools at Chinhoyi University of Technology.",
+                      "What are the different schools at CUT?",
+                      "Can you provide information on the schools within CUT?"
+                      ],
+                      "responses": [
+                      "Chinhoyi University of Technology (CUT) consists of several schools that offer a range of academic programs. Here are the schools at CUT:\n\n1. School of Natural Science and Mathematics: This school focuses on disciplines such as Mathematics, Physics, Chemistry, and Biology.\n\n2. School of Art and Design: This school offers specializations in areas such as Fine Arts, Graphic Design, Fashion Design, and Digital Media.\n\n3. School of Entrepreneurship and Business Science: This school provides courses in Entrepreneurship, Business Management, Economics, and Marketing.\n\n4. School of Engineering and Technology: This school offers programs such as Electrical Engineering, Mechanical Engineering, Civil Engineering, and Computer Engineering.\n\n5. Graduate Business School: This school offers postgraduate programs such as Master of Business Administration (MBA) and Doctor of Philosophy (PhD) in Business Administration.\n\n6. School of Wildlife and Environmental Science: This school focuses on research areas such as Wildlife Conservation, Environmental Management, and Ecological Studies.\n\n7. School of Hospitality and Tourism: This school offers programs in Hospitality Management, Tourism and Travel, and Event Management.\n\n8. Institute of Lifelong Learning and Development Studies: This institute offers courses and programs focused on professional development, continuing education, and lifelong learning.\n\n9. Institute of Material Science, Processing, and Engineering Technology: This institute focuses on research areas such as Material Science, Manufacturing Technology, and Engineering Processes.\n\n10. School of Agricultural Science and Technology: This school offers programs in Agricultural Engineering, Crop Science, Animal Science, and Agribusiness.\n\n11. School of Health Science and Technology: This school offers programs such as Nursing, Medical Laboratory Sciences, Pharmacy, and Radiography.\n\nThese schools at CUT provide diverse educational opportunities and cater to various fields of study."
+                      ]
+                      },
+                      {
+                        "tag": "elearning",
+                        "patterns": [
+                          "How can I access the eLearning platform at Chinhoyi University of Technology?",
+                          "Tell me about the eLearning system at CUT.",
+                          "What resources are available on the CUT student portal?"
+                        ],
+                        "responses": [
+                          "Chinhoyi University of Technology (CUT) provides an eLearning platform for students to access online resources and course materials. The eLearning system offers a range of features to support remote learning and collaboration.\n\nTo access the eLearning platform, you can visit the CUT student portal on the school website and login using your student credentials. Once logged in, you will find course materials, lecture notes, assignments, and other resources uploaded by your professors on the Virtual learning environment (VLE).\n\nThe eLearning platform also includes discussion forums, where you can interact with your peers and instructors, ask questions, and participate in online discussions. Additionally, you may have access to virtual classrooms, video lectures, and online quizzes.\n\nMake sure to check the CUT website or contact the university's IT department for specific instructions on accessing and using the eLearning platform. It's a valuable tool to support your learning experience at CUT."
+                        ]
+                      },
+                      {
+                        "tag": "result_express",
+                        "patterns": [
+                          "How can I view my results using the Result Express tab at Chinhoyi University of Technology?",
+                          "Tell me about the Result Express feature at CUT.",
+                          "Where can I check my academic results on the CUT student portal?"
+                        ],
+                        "responses": [
+                          "Chinhoyi University of Technology (CUT) provides a Result Express tab on the student portal, allowing you to conveniently view your academic results using your credentials.\n\nTo access your results, log in to the CUT student portal using your student credentials. Once logged in, navigate to the Result Express tab, where you will find your semester-wise or module-wise results.\n\nThe Result Express feature provides you with detailed information about your grades, including course names, credits, and the marks you have obtained. You can also view your cumulative grade point average (GPA) and any relevant remarks or notifications.\n\nIf you have any concerns or questions regarding your results, it is recommended to reach out to the university's academic department or your respective faculty for further assistance.\n\nPlease note that result publication timelines may vary, and it's advisable to refer to the official university guidelines or academic calendar for specific result release dates."
+                        ]
+                      },
+                      {
+                        "tag": "library",
+                        "patterns": [
+                          "Tell me about the library at Chinhoyi University of Technology.",
+                          "What resources are available at the CUT library?",
+                          "How can I access the library services at CUT?"
+                        ],
+                        "responses": [
+                          "Chinhoyi University of Technology (CUT) has a well-equipped library that provides a wide range of resources to support students' academic and research needs.\n\nThe CUT library offers an extensive collection of books, journals, research papers, and electronic resources. You can find textbooks, reference materials, scholarly articles, and other relevant publications related to various disciplines.\n\nTo access the library services, you can visit the physical library on campus. The library provides a comfortable study environment with reading areas, study rooms, and computer workstations.\n\nAdditionally, the library offers online access to its resources through the library website. You can search for books, articles, and other materials using the online catalog and databases.\n\nThe library staff is available to assist you with locating resources, research guidance, and general inquiries. They can help you with borrowing and returning books, accessing electronic resources, and navigating the library's facilities.\n\nMake sure to familiarize yourself with the library's operating hours and any specific guidelines or policies for using its services. The library is an essential resource hub for your academic journey at CUT."
+                        ]
+                      },
+                      {
+                        "tag": "contact_us",
+                        "patterns": [
+                          "How can I contact Chinhoyi University of Technology?",
+                          "What are the contact details for CUT?",
+                          "I have some questions. How do I get in touch with the university?"
+                        ],
+                        "responses": [
+                          "You can easily get in touch with Chinhoyi University of Technology (CUT) using the following contact details:\n\nPhysical Address: [J6W4+M8P, A1, Chinhoyi, Zimbabwe]\nPostal Address: [Private Bag 7724,Chinhoyi]\nPhone: [Tel: +263 67 22203-5]\nEmail: [admissions@cut.ac.zw]\nWebsite: [www.cut.ac.zw]\n\nWhether you have inquiries about admissions, academic programs, administrative matters, or any other concerns, the university's contact information provided above will help you reach out to the appropriate departments or individuals.\n\nIt's advisable to check the official CUT website for any updated contact information or specific contact details for different departments or services. The university's staff will be glad to assist you and provide the necessary information or guidance."
+                        ]
+                      },
+                      {
+                        "tag": "banking_details",
+                        "patterns": [
+                          "What are the banking details required for making a payment?",
+                          "Can you provide me with the banking details to transfer funds?",
+                          "I need the banking information to set up a direct deposit."
+                        ],
+                        "responses": [
+                          "Sure! Here are the banking details : Account Number:US$ Account- 09821460210084/ZiG Account - 09821460210054, Bank Name: CBZ, Bank Branch: Chinhoyi Branch.",
+                          "Or use ZB bank:  Account Number:US$ Account - 4565-386395-410/ZiG Account - 4565-386395-200, Bank Name: ZB, Bank Branch: Chinhoyi Branch."
+                          
+                        ]
+                      },
+                      {
+                        "tag": "postgraduates",
+                        "patterns": [
+                          "What postgraduate programs do you offer?",
+                          "Are there any scholarships available for postgraduate students?",
+                          "Can you provide information about the application process for postgraduate studies?"
+                        ],
+                        "responses": [
+                          "We offer a range of postgraduate programs in various fields. Which specific program are you interested in?",
+                          "Yes, we have scholarships available for postgraduate students. Please visit our website or contact the admissions office for more information.",
+                          "Scholarships depends with the company sponsoring,state sponsored or under the Vice chancellor bursary which is awarded to previous Cut undergraduates who will have attained an accolade."
+                        ]
+                      },
+                      {
+                        "tag": "ict_department",
+                        "patterns": [
+                          "I'm having trouble with my computer. Can the ICT department help?",
+                          "What services does the ICT department provide?",
+                          "How can I contact the ICT department for technical support?"
+                        ],
+                        "responses": [
+                          "Yes, the ICT department can assist you with computer-related issues. Please provide more details about the problem, and they will be able to help you.",
+                          "The ICT department provides services such as technical support, network administration, software installation, and IT infrastructure management.",
+                          "To contact the ICT department for technical support, you can reach out to their helpdesk at [phone number] or send an email to [email address]. They are available during business hours to assist you."
+                        ]
+                      },
+                      {
+                        "tag": "university_pride",
+                        "patterns": [
+                          "university vision",
+                          "university mission",
+                          "university core values",
+                          "university pride",
+                          "university values"
+                        ],
+                        "responses": [
+                           "Vision:To be a World-class centre of excellence for technological innovation and entrepreneurship.",
+                           "mission:To produce innovative graduates, create knowledge, enhance entrepreneurship and provide community service through quality teaching training and technologically oriented research.",
+                           "CoreValues",
+                           "Dynamism :description: We value responsiveness and adaptation to technological and managerial dynamics, economic and social developments with respect to the institutional needs.",
+                           "Excellence:description: Commitment to achieving excellence in all our professional and administrative responsibilities with diligence, pride, professionalism and enthusiasm.",
+                           "Culture:description:Ensure that the diversity of Zimbabwe's indigenous values and cultural heritage forms a significant component of the professional and social life at the university.",   
+                          "Integrity:description:Unwavering commitment to conducting ourselves in an honest and credible manner, abiding by high ethical and moral standards.", 
+                           "Democracy:description:We are committed to offer and develop equal opportunities to all people.",   
+                           "Entrepreneurship:description:Cultivate a technology-based culture of entrepreneurship and innovation amongst staff and students across all disciplines."
+                        ]
+                          },
+                          {
+                            "tag": "key_student_responsibilities",
+                            "patterns": [
+                              "student responsibilities",
+                              "student expectations",
+                              "university student rules",
+                              "student diversity",
+                              "student equal opportunity"
+                            ],
+                            "responses": [
+                              
+                                "lifelongLearning :description:By providing our students with a stimulating academic and social environment at CUT we hope we are developing citizens with an unwavering commitment to lifelong learning.",
+                              
+                                "diversity:description:Every student should always be mindful of the fact that Chinhoyi University of Technology aims at providing a diverse cultural and social environment that encourages understanding and respect for people of different beliefs and different perspectives. Such diversity equips the student with a rich educational experience that is consistent with the pluralistic Zimbabwean/Global environment.",
+                              
+                                "equalOpportunity:description:In line with our core values, our commitment to offer and develop equal opportunities to all people as stated in our core values above, we endeavour to create an environment which does not discriminate against individuals on the basis of religion, race, gender, colour, creed, age, marital status, HIV status, ethnic origin, tribe, class, political affiliation and disability.",
+                              
+                                "rulesAndRegulations:description: Students are expected to abide by the university's rules and regulations."
+                                
+                              ]
+                          },
+                          {
+                            "tag": 
+                              "academic-issues"
+                              ,
+                            "patterns": [
+                              "academic registry department",
+                              "admission processes and procedures",
+                              "registration of first-year student",
+                              "registration for returning student",
+                              "change of personal information",
+                              "student identity/access cards",
+                              "international student",
+                              "registration for higher level of module/programme",
+                              "deferment",
+                              "withdrawals",
+                              "examinations",
+                              "illness and other extenuating circumstances",
+                              "assessment practices"
+                            ],
+                            "responses": [
+                              
+                                 "academic registry department",
+                                 "The Office of the Deputy Registrar, Academic, is responsible for advising students on all academic matters. This includes programme choice, change of programme of study, timetabling, deferment of studies and examinations. Students are also advised to consult School and Departmental offices for any guidance on academic issues. Each School and Department has an Assistant Registrar whose responsibility is to assist students in making important decisions regarding their academic development."
+                              ,
+                              
+                               "admission processes and procedures",
+                               "The Admissions Office is the entry point into the University and as such it is an integral unit that ensures fair, transparent and quality student enrolment. The guidelines below are extracts from the General Academic Regulations and should be read and referred in the sections referred."
+                              ,
+                              
+                               "registration of first-year student",
+                               "At registration, a prospective student who registers for the first time at the University must submit, together with their registration forms and offer letter, original and certified copies of the documents specified. In exceptional cases, where the documentation is not available upon registration, conditional registration shall only be allowed with the permission of the Deputy Registrar, Academic. Failure to submit the documentation within the specified period by the Deputy Registrar, Academic may lead to cancellation of registration. The University has the right to cancel the registration of a student who provided inaccurate information, false documentation to an application for admission or omitted to provide material information or documentation."
+                              ,
+                              
+                                "registration for returning student",
+                                "A returning student must register every Semester in accordance with the approved Academic Calendar. The registration of student shall be valid for the applicable registration period only and lapses on expiry of the period. A student shall not be allowed to register outside the prescribed and approved registration periods unless the University formally extends the registration period. A student who is not registered is not eligible to attend lectures and/or examinations. Late registration shall attract a fee determined by the university."
+                              ,
+                              
+                               "change of personal information",
+                                "A student must inform the University of changes in their personal details. Correspondence to students will be addressed to the contact details supplied during registration."
+                              ,
+                              
+                                "student identity/access cards",
+                               "A student shall be issued with student access cards after their registration process has been successfully completed. A student must carry his/her student access card at all times when on University premises. A valid student access card must be presented in order to gain access to the University's facilities."
+                              ,
+                              
+                              "international student",
+                              "An international student may register at the University if he/she meet the University's academic admission requirements and obtain valid study permits. An international student shall pay for the full payment of application and registration fees upon registration."
+                              ,
+                              
+                             "registration for higher level of module/programme",
+                             "A student shall only be permitted to register for the higher level module/programme if they have passed the prerequisite modules/ programmes."
+                              ,
+                              
+                              "deferment",
+                              "A student shall defer studies in a particular programme by official notification thereof before the date determined by the University. Normally deferments must be done during the first two weeks of a Semester and fees paid shall be credited to the student's account. Normally deferment of studies in a programme shall not be allowed within the twenty-one (21) working days' period before the beginning of the examinations unless there are extenuating circumstances."
+                              ,
+                              
+                              "withdrawals",
+                              "Registration fees shall not be reimbursed. A student who withdraws from the University before the commencement of the Semester shall be charged twenty-five (25) percent of fees as administration fee. A student who withdraws from the University within two (2) weeks after the commencement of the Semester shall be charged fifty (50) percent of fees as administration fee. A student who withdraws from the University any period longer than two (2) weeks after the commencement of the Semester shall forfeit the tuition fees paid."
+                              ,
+                              
+                               "examinations",
+                               "Students shall normally take University Examinations at the end of each appropriate semester as prescribed in the Specific School/Institute/Centre and Departmental Regulations. To be admitted to any University Examination, a candidate must be registered as a student of the University and have satisfied the continuous assessment component of the relevant module. Students who absent themselves without prior approval from an examination will be marked as being absent and deemed to have made an attempt. Therefore, any further attempt will be determined as a re-sit of an examination."
+                              ,
+                              
+                              "illness and other extenuating circumstances",
+                              "Normally, candidates shall be expected to present evidence of illness or other extenuating circumstances which may have affected them not later than five (5) working days after the date of a written examination."
+                              ,
+                              
+                              "assessment practices",
+                               "A student shall be assessed by formal (usually written) examination/module or by a combination of these elements. Assessment may include practical work, projects, presentations, creative work, displays, exhibition, portfolios, product development, prototype, submission of essays, exercises, seminar papers, reports, class tests and the production of artifacts and designs, that will result in goods and services that solve community problems. Any assignment submitted after the prescribed date, without permission, shall not be accepted. The University shall operate a policy to ensure the anonymity of examination scripts during the marking process. Reasonable adjustment may be made to module delivery and assessment to meet the needs of differently abled student. Assessment criteria and marking schemes shall guide markers. In support of equity, validity and reliability in the assessment process, internal moderation shall be operated."
+                              
+                            ]
+                          }
+                          ,
+                          {
+                            "tag": 
+                            "grading_and_degree_classification"
+  
+                            ,
+                            "patterns": [
+                            "What is the student's goal for their GPA?",
+                            "What is the minimum GPA requirement for entry to a major and graduation?",
+                            "How are degrees classified at Chinhoyi University of Technology?",
+                            "How are credits calculated at Chinhoyi University of Technology?"
+                            ],
+                            "responses": [
+                            
+                            "According to section 9.4.1, the student's goal should be to attain a cumulated GPA of at least 2.00."
+                            ,
+                            
+                            
+                            "Section 9.4.2 states that the minimum requirement for entry to a major and for graduation is a GPA of 2.00."
+                            ,
+                            
+                            "Section 9.4.3 outlines the degree classification system:\n- 91-100% = A+ (GPA 4.0)\n- 81-90% = A (GPA 3.6)\n- 75-80% = A- (GPA 3.2)\n- 70-74% = B+ (GPA 2.8)\n- 65-69% = B (GPA 2.4)\n- 60-64% = B- (GPA 2.0)\n- 56-59% = C+ (GPA 1.7)\n- 53-55% = C (GPA 1.4)\n- 50-52% = C- (GPA 1.0)\n- 0-49% = F (GPA 0.0)"
+                            ,
+                            
+                            "According to sections 9.5.1 to 9.5.6:\n- The university uses notional hours to record academic work, with 10 notional hours equivalent to 1 credit.\n- Each semester has 60 credits based on a 30-week academic year and 40 expected study hours per week.\n- No credits are given for modules that are not satisfactorily completed."
+                            
+                            ]
+                            },
+                            {
+                              "tag":"goodbyes",
+                              "patterns":["bye bye","goodbye","later"],
+                              "responses":["sure","my pleasure","Great have a lovely day"]
+                            },
+                            {
+                              "tag":"location",
+                              "patterns":["where is cut","where is cut located","which city is cut"],
+                              "responses":["The university's main campus is situated about 120 km (75 miles) northwest of Harare the capital city of Zimbabwe, the physical address,Chinhoyi University of Technology P Bag 7724 Chinhoyi Zimbabwe ,The university has a second campus in Harare, which serves as a postgraduate campus."]
+                            }
+                        ]
+}
+                    
+                     
+                    
+                      
+
+
+    

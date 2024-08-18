@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversations</title>
+</head>
+<body>
+    <h1>Conversations</h1>
+    <ul>
+        {% for conversation in conversations %}
+            <li>
+                <b>User Input:</b> {{ conversation[1] }}
+                <br>
+                <b>Bot Response:</b> {{ conversation[2] }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
